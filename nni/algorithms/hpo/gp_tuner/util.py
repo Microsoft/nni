@@ -95,7 +95,7 @@ def acq_max(f_acq, gp, y_max, bounds, space, num_warmup, num_starting_points):
     for x_try in x_seeds:
         # Find the minimum of minus the acquisition function
         res = minimize(lambda x: -f_acq(x.reshape(1, -1), gp=gp, y_max=y_max),
-                       x_try.reshape(1, -1),
+                       x_try,
                        bounds=bounds_minmax,
                        method="L-BFGS-B")
 
@@ -104,9 +104,9 @@ def acq_max(f_acq, gp, y_max, bounds, space, num_warmup, num_starting_points):
             continue
 
         # Store it if better than previous minimum(maximum).
-        if max_acq is None or -res.fun[0] >= max_acq:
+        if max_acq is None or -np.squeeze(res.fun) >= max_acq:
             x_max = _match_val_type(res.x, bounds)
-            max_acq = -res.fun[0]
+            max_acq = -np.squeeze(res.fun)
 
     # Clip output to make sure it lies within the bounds. Due to floating
     # point technicalities this is not always the case.
