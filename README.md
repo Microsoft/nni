@@ -165,18 +165,18 @@ To update NNI to the latest version, add `--upgrade` flag to the above commands.
 </td>
 <td>
 <ul>
-<li><a href="https://nni.readthedocs.io/en/latest/experiment/local.html">Local machine</a></li>
-<li><a href="https://nni.readthedocs.io/en/latest/experiment/remote.html">Remote SSH servers</a></li>
-<li><a href="https://nni.readthedocs.io/en/latest/experiment/aml.html">Azure Machine Learning (AML)</a></li>
+<li><a href="https://nni.readthedocs.io/en/latest/experiment/training_service/local.html">Local machine</a></li>
+<li><a href="https://nni.readthedocs.io/en/latest/experiment/training_service/remote.html">Remote SSH servers</a></li>
+<li><a href="https://nni.readthedocs.io/en/latest/experiment/training_service/aml.html">Azure Machine Learning (AML)</a></li>
 <li><b>Kubernetes Based</b></li>
 <ul>
-<li><a href="https://nni.readthedocs.io/en/latest/experiment/openpai.html">OpenAPI</a></li>
-<li><a href="https://nni.readthedocs.io/en/latest/experiment/kubeflow.html">Kubeflow</a></li>
-<li><a href="https://nni.readthedocs.io/en/latest/experiment/frameworkcontroller.html">FrameworkController</a></li>
-<li><a href="https://nni.readthedocs.io/en/latest/experiment/adaptdl.html">AdaptDL</a></li>
-<li><a href="https://nni.readthedocs.io/en/latest/experiment/paidlc.html">PAI DLC</a></li>
+<li><a href="https://nni.readthedocs.io/en/latest/experiment/training_service/openpai.html">OpenAPI</a></li>
+<li><a href="https://nni.readthedocs.io/en/latest/experiment/training_service/kubeflow.html">Kubeflow</a></li>
+<li><a href="https://nni.readthedocs.io/en/latest/experiment/training_service/frameworkcontroller.html">FrameworkController</a></li>
+<li><a href="https://nni.readthedocs.io/en/latest/experiment/training_service/adaptdl.html">AdaptDL</a></li>
+<li><a href="https://nni.readthedocs.io/en/latest/experiment/training_service/paidlc.html">PAI DLC</a></li>
 </ul>
-<li><a href="https://nni.readthedocs.io/en/latest/experiment/hybrid.html">Hybrid training services</a></li>
+<li><a href="https://nni.readthedocs.io/en/latest/experiment/training_service/hybrid.html">Hybrid training services</a></li>
 </ul>
 </td>
 <td>
@@ -194,9 +194,9 @@ To update NNI to the latest version, add `--upgrade` flag to the above commands.
 <li><b>Compression</b></li>
 <ul>
 <li><a href="https://nni.readthedocs.io/en/latest/tutorials/pruning_quick_start.html">Pruning</a></li>
-<li><a href="https://nni.readthedocs.io/en/latest/tutorials/pruning_speed_up.html">Pruning Speedup</a></li>
+<li><a href="https://nni.readthedocs.io/en/latest/tutorials/pruning_speedup.html">Pruning Speedup</a></li>
 <li><a href="https://nni.readthedocs.io/en/latest/tutorials/quantization_quick_start.html">Quantization</a></li>
-<li><a href="https://nni.readthedocs.io/en/latest/tutorials/quantization_speed_up.html">Quantization Speedup</a></li>
+<li><a href="https://nni.readthedocs.io/en/latest/tutorials/quantization_speedup.html">Quantization Speedup</a></li>
 </ul>
 </ul>
 </td>
