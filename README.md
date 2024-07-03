@@ -223,14 +223,6 @@ To update NNI to the latest version, add `--upgrade` flag to the above commands.
 If you want to contribute to NNI, be sure to review the [contribution guidelines](https://nni.readthedocs.io/en/stable/notes/contributing.html), which includes instructions of submitting feedbacks, best coding practices, and code of conduct.
 
 We use [GitHub issues](https://github.com/microsoft/nni/issues) to track tracking requests and bugs.
-Please use [NNI Discussion](https://github.com/microsoft/nni/discussions) for general questions and new ideas.
-For questions of specific use cases, please go to [Stack Overflow](https://stackoverflow.com/questions/tagged/nni).
-
-Participating discussions via the following IM groups is also welcomed.
-
-|Gitter||WeChat|
-|----|----|----|
-|![image](https://user-images.githubusercontent.com/39592018/80665738-e0574a80-8acc-11ea-91bc-0836dc4cbf89.png)| OR |![image](https://github.com/scarlett2018/nniutil/raw/master/wechat.png)|
 
 Over the past few years, NNI has received thousands of feedbacks on GitHub issues, and pull requests from hundreds of contributors.
 We appreciate all contributions from community to make NNI thrive.
